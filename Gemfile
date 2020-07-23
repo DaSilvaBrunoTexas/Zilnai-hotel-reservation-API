@@ -9,15 +9,15 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 # gem 'sqlite3', '~> 1.4'
 
 # # # replace gem "sqlite3" with
-# gem "pg"
+gem "pg"
 
-group :production do
-  gem "pg"
-end
+# group :production do
+#   gem "pg"
+# end
 
-group :development, :test do
-  gem 'sqlite3', '~> 1.4'
-end
+# group :development, :test do
+#   gem 'sqlite3', '~> 1.4'
+# end
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
